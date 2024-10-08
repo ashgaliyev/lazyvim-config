@@ -1,11 +1,15 @@
+if true then
+  return {}
+end
+
 return {
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
     build = ":Copilot auth",
     opts = {
-      suggestion = { enabled = true },
-      panel = { enabled = true },
+      suggestion = { enabled = false },
+      panel = { enabled = false },
     },
   },
 }
